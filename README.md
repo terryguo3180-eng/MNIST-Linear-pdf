@@ -1,4 +1,5 @@
-# MNIST-Linear
+# MNIST-Expanded-Formula
+
 A giant formula that implements a simple forward pass with only one linear layer and integer arithmetic. Its accuracy on MNIST test set is around 92%, which is basically the limit for tiny linear networks like this. The computation is simple enough that you can even work out by hand, if you have enough patience :D
 
 I doubt if anyone's gonna do this but $a_{i,j}$ stands for the brightness of the pixel at column $i$ and row $j$ (indices starts from 0), which is an integer between 0 to 255. As an example, 6 can be expressed as something like this:
