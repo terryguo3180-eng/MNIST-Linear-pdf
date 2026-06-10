@@ -1,6 +1,7 @@
 # MNIST-Linear
 A giant formula that implements a simple forward pass with only one linear layer and integer arithmetic. The accuracy on MNIST test set is around 92%, which is basically the limit for networks of this scale. The computation is simple enough that you can even work out by hand, if you have enough patience :D
 
+$$
 \documentclass{article}
 \usepackage{amsmath}
 \title{MNIST Formula}
@@ -654,4 +655,4 @@ p_9 &= 17a_{0,0}+5a_{0,1}+a_{0,2}-7a_{0,3}-6a_{0,4}+7a_{0,5}-2a_{0,6}-7a_{0,7}-5
 d=max(p_0,p_1,p_2,p_3,p_4,p_5,p_6,p_7,p_8,p_9)
 \end{align*}
 \end{document}
-
+$$
